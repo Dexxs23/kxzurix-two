@@ -9,7 +9,7 @@ module.exports = {
      if (icmd) {
 				let buttonMessaged = {
 					image: { url: await botpic() },
-					caption: `Did you mean ${prefix}help?`,
+					caption: `Benutze ${prefix}help?`,
 					footer: ` ` + tlang().footer,
 					headerType: 4,
 					contextInfo: {
