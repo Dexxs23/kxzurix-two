@@ -3,8 +3,8 @@ const { getBuffer } = require('../../lib/myfuncn');
 const { prefix } = require('../../config')
 
 module.exports = {
-   name: 'qr',
-   category: 'system',
+   name: 'oqr',
+   category: 'owner',
    desc: 'Sends CitelsVoid Qr code to scan and get your session id.',
    async exec(citel, Void,args) {
 	if(args[0]){
