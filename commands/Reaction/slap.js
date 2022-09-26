@@ -20,11 +20,11 @@ module.exports = {
 					ment = [usep, citel.sender];
 				}
 				if (!citel.quoted) {
-					recp = `@${citel.sender.split("@")[0]} *_slaped everyone over here._*`;
+					recp = `@${citel.sender.split("@")[0]} *_Schlägt alle aus dieser Gruppe zusammen._*`;
 				}
 				else {
 					const rcpp = `@${users.split("@"[0])}`;
-					recp = `@${citel.sender.split("@")[0]} slaped to @${
+					recp = `@${citel.sender.split("@")[0]} Verprügelt @${
           users.split("@")[0]
         } `;
 				}

@@ -24,7 +24,7 @@ module.exports = {
 				}
 				else {
 					const rcpp = `@${users.split("@"[0])}`;
-					recp = `@${citel.sender.split("@")[0]} cuddled with @${
+					recp = `@${citel.sender.split("@")[0]} Knuddelt 🥰🥰 @${
           users.split("@")[0]
         } `;
 				}

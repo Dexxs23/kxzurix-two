@@ -20,11 +20,11 @@ module.exports = {
 					ment = [usep, citel.sender];
 				}
 				if (!citel.quoted) {
-					recp = `@${citel.sender.split("@")[0]} *_kissed everyone over here._*`;
+					recp = `@${citel.sender.split("@")[0]} *_Gibt allen ein Kuss🤨🤭🫣._*`;
 				}
 				else {
 					const rcpp = `@${users.split("@"[0])}`;
-					recp = `@${citel.sender.split("@")[0]} kissed to @${
+					recp = `@${citel.sender.split("@")[0]} Küsst😍🥰 @${
           users.split("@")[0]
         } `;
 				}
